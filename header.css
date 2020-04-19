@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Philosopher:ital,wght@1,700&display=swap');
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    color: #edf0f1;
+    font-family: 'Dosis',sans-serif;
+    background-color: darkblue;
+}
+.horizontal> li{
+    color: white;
+    border-right:1px solid white;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    margin: center;
+}
+.horizontal li:last-of-type a{
+    border-right: none;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+}
+.short-width{
+    display: flex;
+}
+.full-width{
+    display: none;
+}
+.sub-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.search-form{
+    display: flex;
+    border-bottom: darkblue;
+    margin: .4rem 0;
+}
+/* .nav-list{
+    display: flex;
+    flex-direction: row;
+    border-right: white;
+    color: white;
+    
+} */
+@media (min-width: 768px){
+.short-width{
+    display: none;
+}
+.full-width{
+    display: flex;
+}
+}
+.text{
+    width: 500px;
+}
+.company-name{
+    font-size: xx-large;
+    color: darkblue;
+    font-family:'Philosoper'sans-serif;
+}
+.credit-offer{
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    font-family: 'Dosis' sans-serif;
+    font-size: large;
+}
